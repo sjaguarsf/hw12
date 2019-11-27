@@ -10,7 +10,6 @@ def encode_pathname():
     pool = concurrent.futures.ThreadPoolExecutor()
     for i in range(len(sys.argv)):
 
-
 if __name__=="__main__":
     inputs = range(1,10)
     pool = concurrent.futures.ThreadPoolExecutor()
